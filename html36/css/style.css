@@ -46,6 +46,11 @@ body {
 
 /* ================== Выполнение дз ниже =================== */
  .box__scale {
-    transition-duration: 1s;
+    transition-delay: 5ms;
+    transition-duration: 1s ;
     transition-timing-function: ease;
  }
+ 
+span {
+    transition-delay: 1s ;    
+}
