@@ -1,0 +1,17 @@
+.item  {
+    font-size: 52px;
+    text-align: center;
+}
+
+
+.item::before {
+    display: block;
+    content: 'а';
+    transform: translate(-200px, 50px);
+
+}
+.item::after {
+    content: 'б';
+    display: block;
+    transform: translate(200px,-50px);
+}
